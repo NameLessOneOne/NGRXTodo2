@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Film } from '../../models';
+// import { Film } from '../../models';
 
 @Component({
   selector: 'app-film-selected',
@@ -22,7 +22,7 @@ import { Film } from '../../models';
   `]
 })
 export class FilmSelectedComponent implements OnInit {
-  @Input() film: Film;
+  @Input() film: any;
   constructor() { }
 
   ngOnInit() {
