@@ -1,0 +1,11 @@
+<div>
+  <mat-form-field class="example-full-width">
+    <input
+      matInput
+      [(ngModel)]="todo"
+      name="todo"
+      autocomplete="off"
+      placeholder="Enter some text"
+      (keyup.enter)="addTodo()">
+  </mat-form-field>
+</div>
